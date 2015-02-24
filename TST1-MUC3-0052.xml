@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xdrs-output version="boxer v2545 (unix build on 9 luty 2015, 16:38:22)">
+<!-- Some of the country's political leaders , not only in Northern Santander , but in several areas of the country are very concerned about the constant raids by subversive groups and their murdered mayors , officials , political leaders and the kidnapping of national civil registry office personnel . --> 
+
+<xdrs xml:id="xdrs1">
+ <taggedtokens>
+  <tagtoken xml:id="i1001">
+   <tags>
+     <tag type="tok">Some</tag>
+     <tag type="pos">DT</tag>
+     <tag type="lemma">some</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1002">
+   <tags>
+     <tag type="tok">of</tag>
+     <tag type="pos">IN</tag>
+     <tag type="lemma">of</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1003">
+   <tags>
+     <tag type="tok">the</tag>
+     <tag type="pos">DT</tag>
+     <tag type="lemma">the</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1004">
+   <tags>
+     <tag type="tok">country's</tag>
+     <tag type="pos">NNS</tag>
+     <tag type="lemma">country's</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1005">
+   <tags>
+     <tag type="tok">political</tag>
+     <tag type="pos">JJ</tag>
+     <tag type="lemma">political</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1006">
+   <tags>
+     <tag type="tok">leaders</tag>
+     <tag type="pos">NNS</tag>
+     <tag type="lemma">leader</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1007">
+   <tags>
+     <tag type="tok">,</tag>
+     <tag type="pos">,</tag>
+     <tag type="lemma">,</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1008">
+   <tags>
+     <tag type="tok">not</tag>
+     <tag type="pos">RB</tag>
+     <tag type="lemma">not</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1009">
+   <tags>
+     <tag type="tok">only</tag>
+     <tag type="pos">RB</tag>
+     <tag type="lemma">only</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1010">
+   <tags>
+     <tag type="tok">in</tag>
+     <tag type="pos">IN</tag>
+     <tag type="lemma">in</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1011">
+   <tags>
+     <tag type="tok">Northern</tag>
+     <tag type="pos">NNP</tag>
+     <tag type="lemma">Northern</tag>
+     <tag type="namex">I-LOC</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1012">
+   <tags>
+     <tag type="tok">Santander</tag>
+     <tag type="pos">NNP</tag>
+     <tag type="lemma">Santander</tag>
+     <tag type="namex">I-LOC</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1013">
+   <tags>
+     <tag type="tok">,</tag>
+     <tag type="pos">,</tag>
+     <tag type="lemma">,</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1014">
+   <tags>
+     <tag type="tok">but</tag>
+     <tag type="pos">CC</tag>
+     <tag type="lemma">but</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1015">
+   <tags>
+     <tag type="tok">in</tag>
+     <tag type="pos">IN</tag>
+     <tag type="lemma">in</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1016">
+   <tags>
+     <tag type="tok">several</tag>
+     <tag type="pos">JJ</tag>
+     <tag type="lemma">several</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1017">
+   <tags>
+     <tag type="tok">areas</tag>
+     <tag type="pos">NNS</tag>
+     <tag type="lemma">area</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1018">
+   <tags>
+     <tag type="tok">of</tag>
+     <tag type="pos">IN</tag>
+     <tag type="lemma">of</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1019">
+   <tags>
+     <tag type="tok">the</tag>
+     <tag type="pos">DT</tag>
+     <tag type="lemma">the</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1020">
+   <tags>
+     <tag type="tok">country</tag>
+     <tag type="pos">NN</tag>
+     <tag type="lemma">country</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1021">
+   <tags>
+     <tag type="tok">are</tag>
+     <tag type="pos">VBP</tag>
+     <tag type="lemma">be</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1022">
+   <tags>
+     <tag type="tok">very</tag>
+     <tag type="pos">RB</tag>
+     <tag type="lemma">very</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1023">
+   <tags>
+     <tag type="tok">concerned</tag>
+     <tag type="pos">JJ</tag>
+     <tag type="lemma">concerned</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1024">
+   <tags>
+     <tag type="tok">about</tag>
+     <tag type="pos">IN</tag>
+     <tag type="lemma">about</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1025">
+   <tags>
+     <tag type="tok">the</tag>
+     <tag type="pos">DT</tag>
+     <tag type="lemma">the</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1026">
+   <tags>
+     <tag type="tok">constant</tag>
+     <tag type="pos">JJ</tag>
+     <tag type="lemma">constant</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1027">
+   <tags>
+     <tag type="tok">raids</tag>
+     <tag type="pos">NNS</tag>
+     <tag type="lemma">raid</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1028">
+   <tags>
+     <tag type="tok">by</tag>
+     <tag type="pos">IN</tag>
+     <tag type="lemma">by</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1029">
+   <tags>
+     <tag type="tok">subversive</tag>
+     <tag type="pos">JJ</tag>
+     <tag type="lemma">subversive</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1030">
+   <tags>
+     <tag type="tok">groups</tag>
+     <tag type="pos">NNS</tag>
+     <tag type="lemma">group</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1031">
+   <tags>
+     <tag type="tok">and</tag>
+     <tag type="pos">CC</tag>
+     <tag type="lemma">and</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1032">
+   <tags>
+     <tag type="tok">their</tag>
+     <tag type="pos">PRP$</tag>
+     <tag type="lemma">their</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1033">
+   <tags>
+     <tag type="tok">murdered</tag>
+     <tag type="pos">VBN</tag>
+     <tag type="lemma">murder</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1034">
+   <tags>
+     <tag type="tok">mayors</tag>
+     <tag type="pos">NNS</tag>
+     <tag type="lemma">mayor</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1035">
+   <tags>
+     <tag type="tok">,</tag>
+     <tag type="pos">,</tag>
+     <tag type="lemma">,</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1036">
+   <tags>
+     <tag type="tok">officials</tag>
+     <tag type="pos">NNS</tag>
+     <tag type="lemma">official</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1037">
+   <tags>
+     <tag type="tok">,</tag>
+     <tag type="pos">,</tag>
+     <tag type="lemma">,</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1038">
+   <tags>
+     <tag type="tok">political</tag>
+     <tag type="pos">JJ</tag>
+     <tag type="lemma">political</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1039">
+   <tags>
+     <tag type="tok">leaders</tag>
+     <tag type="pos">NNS</tag>
+     <tag type="lemma">leader</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1040">
+   <tags>
+     <tag type="tok">and</tag>
+     <tag type="pos">CC</tag>
+     <tag type="lemma">and</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1041">
+   <tags>
+     <tag type="tok">the</tag>
+     <tag type="pos">DT</tag>
+     <tag type="lemma">the</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1042">
+   <tags>
+     <tag type="tok">kidnapping</tag>
+     <tag type="pos">NN</tag>
+     <tag type="lemma">kidnapping</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1043">
+   <tags>
+     <tag type="tok">of</tag>
+     <tag type="pos">IN</tag>
+     <tag type="lemma">of</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1044">
+   <tags>
+     <tag type="tok">national</tag>
+     <tag type="pos">JJ</tag>
+     <tag type="lemma">national</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1045">
+   <tags>
+     <tag type="tok">civil</tag>
+     <tag type="pos">JJ</tag>
+     <tag type="lemma">civil</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1046">
+   <tags>
+     <tag type="tok">registry</tag>
+     <tag type="pos">NN</tag>
+     <tag type="lemma">registry</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1047">
+   <tags>
+     <tag type="tok">office</tag>
+     <tag type="pos">NN</tag>
+     <tag type="lemma">office</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1048">
+   <tags>
+     <tag type="tok">personnel</tag>
+     <tag type="pos">NNS</tag>
+     <tag type="lemma">personnel</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1049">
+   <tags>
+     <tag type="tok">.</tag>
+     <tag type="pos">.</tag>
+     <tag type="lemma">.</tag>
+     <tag type="namex">O</tag>
+   </tags>
+  </tagtoken>
+ </taggedtokens>
+ <merge>
+  <drs type="normal" label="l">
+   <domain>
+    <dr label="[1041]" name="_G9761">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr label="[]" name="_G9770">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr label="[]" name="_G9779">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr label="[]" name="_G9788">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr label="[]" name="_G9797">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr label="[1025]" name="_G9806">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr label="[1019]" name="_G9815">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr label="[]" name="_G9824">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr label="[]" name="_G9833">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr label="[]" name="_G9842">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr label="[]" name="_G9851">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr label="[1003]" name="_G9860">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </domain>
+   <conds>
+    <cond label="l">
+     <pred arg="[]:_G9761" symbol="kidnapping" type="n" sense="0">
+     <indexlist>
+     <index pos="42">i1042</index>
+     </indexlist>
+     </pred>
+    </cond>
+    <cond label="l">
+     <pred arg="[]:_G9779" symbol="mayor" type="n" sense="0">
+     <indexlist>
+     <index pos="34">i1034</index>
+     </indexlist>
+     </pred>
+    </cond>
+    <cond label="l">
+     <rel arg1="[]:_G9770" arg2="[]:_G9779" symbol="patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </cond>
+    <cond label="l">
+     <pred arg="[]:_G9770" symbol="murder" type="v" sense="0">
+     <indexlist>
+     <index pos="33">i1033</index>
+     </indexlist>
+     </pred>
+    </cond>
+    <cond label="l">
+     <rel arg1="[]:_G9779" arg2="[]:_G9788" symbol="of" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </cond>
+    <cond label="l">
+     <pred arg="[]:_G9788" symbol="thing" type="n" sense="12">
+     <indexlist>
+     <index pos="32">i1032</index>
+     </indexlist>
+     </pred>
+    </cond>
+    <cond label="l">
+     <pred arg="[]:_G9806" symbol="raid" type="n" sense="0">
+     <indexlist>
+     <index pos="27">i1027</index>
+     </indexlist>
+     </pred>
+    </cond>
+    <cond label="l">
+     <pred arg="[]:_G9797" symbol="constant" type="a" sense="0">
+     <indexlist>
+     <index pos="26">i1026</index>
+     </indexlist>
+     </pred>
+    </cond>
+    <cond label="l">
+     <rel arg1="[]:_G9797" arg2="[]:_G9806" symbol="topic" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </cond>
+    <cond label="l">
+     <pred arg="[]:_G9815" symbol="country" type="n" sense="0">
+     <indexlist>
+     <index pos="20">i1020</index>
+     </indexlist>
+     </pred>
+    </cond>
+    <cond label="l">
+     <named arg="[]:_G9833" symbol="santander" class="geo" type="nam">
+     <indexlist>
+     <index pos="12">i1012</index>
+     </indexlist>
+     </named>
+    </cond>
+    <cond label="l">
+     <eq arg1="[]:_G9833" arg2="[]:_G9824">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </cond>
+    <cond label="l">
+     <named arg="[]:_G9824" symbol="northern" class="geo" type="nam">
+     <indexlist>
+     <index pos="11">i1011</index>
+     </indexlist>
+     </named>
+    </cond>
+    <cond label="l">
+     <pred arg="[]:_G9860" symbol="leader" type="n" sense="0">
+     <indexlist>
+     <index pos="6">i1006</index>
+     </indexlist>
+     </pred>
+    </cond>
+    <cond label="l">
+     <pred arg="[]:_G9842" symbol="political" type="a" sense="0">
+     <indexlist>
+     <index pos="5">i1005</index>
+     </indexlist>
+     </pred>
+    </cond>
+    <cond label="l">
+     <rel arg1="[]:_G9842" arg2="[]:_G9860" symbol="rel" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </cond>
+    <cond label="l">
+     <rel arg1="[]:_G9860" arg2="[]:_G9851" symbol="of" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </cond>
+    <cond label="l">
+     <pred arg="[]:_G9851" symbol="country's" type="n" sense="0">
+     <indexlist>
+     <index pos="4">i1004</index>
+     </indexlist>
+     </pred>
+    </cond>
+   </conds>
+  </drs>
+  <drs type="normal" label="l">
+   <domain>
+    <dr label="[]" name="_G11108">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr label="[]" name="_G11117">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr label="[]" name="_G11126">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </domain>
+   <conds>
+    <cond label="l">
+     <pred arg="[]:_G11108" symbol="only" type="r" sense="0">
+     <indexlist>
+     <index pos="9">i1009</index>
+     </indexlist>
+     </pred>
+    </cond>
+    <cond label="l">
+     <not>
+     <indexlist>
+     <index pos="8">i1008</index>
+     </indexlist>
+      <drs type="normal" label="l">
+       <domain>
+        <dr label="[]" name="_G11228">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr label="[]" name="_G11237">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr label="[]" name="_G11246">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr label="[]" name="_G11255">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr label="[]" name="_G11264">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr label="[]" name="_G11273">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr label="[]" name="_G11282">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr label="[1040]" name="_G11291">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr label="[]" name="_G11300">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr label="[]" name="_G11309">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr label="[]" name="_G11318">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr label="[1031]" name="_G11327">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr label="[]" name="_G11336">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr label="[]" name="_G11345">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr label="[]" name="_G11354">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr label="[]" name="_G11363">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </domain>
+       <conds>
+        <cond label="l">
+         <rel arg1="[]:_G11108" arg2="[]:_G11363" symbol="in" sense="0">
+         <indexlist>
+         <index pos="15">i1015</index>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G11363" arg2="[]:_G9815" symbol="of" sense="0">
+         <indexlist>
+         <index pos="18">i1018</index>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G9815" arg2="[]:_G11300" symbol="rel" sense="2">
+         <indexlist>
+         <index pos="35">i1035</index>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G11300" arg2="[]:_G11291" symbol="rel" sense="2">
+         <indexlist>
+         <index pos="37">i1037</index>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G9761" arg2="[]:_G11291" symbol="subset_of" sense="1">
+         <indexlist>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G9761" arg2="[]:_G11264" symbol="of" sense="0">
+         <indexlist>
+         <index pos="43">i1043</index>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <pred arg="[]:_G11264" symbol="personnel" type="n" sense="0">
+         <indexlist>
+         <index pos="48">i1048</index>
+         </indexlist>
+         </pred>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G11264" arg2="[]:_G11228" symbol="of" sense="0">
+         <indexlist>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <pred arg="[]:_G11228" symbol="office" type="n" sense="0">
+         <indexlist>
+         <index pos="47">i1047</index>
+         </indexlist>
+         </pred>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G11264" arg2="[]:_G11237" symbol="of" sense="0">
+         <indexlist>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <pred arg="[]:_G11237" symbol="registry" type="n" sense="0">
+         <indexlist>
+         <index pos="46">i1046</index>
+         </indexlist>
+         </pred>
+        </cond>
+        <cond label="l">
+         <pred arg="[]:_G11246" symbol="civil" type="a" sense="0">
+         <indexlist>
+         <index pos="45">i1045</index>
+         </indexlist>
+         </pred>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G11246" arg2="[]:_G11264" symbol="topic" sense="0">
+         <indexlist>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <pred arg="[]:_G11255" symbol="national" type="a" sense="0">
+         <indexlist>
+         <index pos="44">i1044</index>
+         </indexlist>
+         </pred>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G11255" arg2="[]:_G11264" symbol="topic" sense="0">
+         <indexlist>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G11282" arg2="[]:_G11291" symbol="subset_of" sense="1">
+         <indexlist>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <pred arg="[]:_G11282" symbol="leader" type="n" sense="0">
+         <indexlist>
+         <index pos="39">i1039</index>
+         </indexlist>
+         </pred>
+        </cond>
+        <cond label="l">
+         <pred arg="[]:_G11273" symbol="political" type="a" sense="0">
+         <indexlist>
+         <index pos="38">i1038</index>
+         </indexlist>
+         </pred>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G11273" arg2="[]:_G11282" symbol="topic" sense="0">
+         <indexlist>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <pred arg="[]:_G11300" symbol="official" type="n" sense="0">
+         <indexlist>
+         <index pos="36">i1036</index>
+         </indexlist>
+         </pred>
+        </cond>
+        <cond label="l">
+         <pred arg="[]:_G11336" symbol="very" type="r" sense="0">
+         <indexlist>
+         <index pos="22">i1022</index>
+         </indexlist>
+         </pred>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G11336" arg2="[]:_G9806" symbol="about" sense="0">
+         <indexlist>
+         <index pos="24">i1024</index>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G9806" arg2="[]:_G11327" symbol="by" sense="0">
+         <indexlist>
+         <index pos="28">i1028</index>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G9779" arg2="[]:_G11327" symbol="subset_of" sense="1">
+         <indexlist>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G11318" arg2="[]:_G11327" symbol="subset_of" sense="1">
+         <indexlist>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <pred arg="[]:_G11318" symbol="group" type="n" sense="0">
+         <indexlist>
+         <index pos="30">i1030</index>
+         </indexlist>
+         </pred>
+        </cond>
+        <cond label="l">
+         <pred arg="[]:_G11309" symbol="subversive" type="a" sense="0">
+         <indexlist>
+         <index pos="29">i1029</index>
+         </indexlist>
+         </pred>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G11309" arg2="[]:_G11318" symbol="topic" sense="0">
+         <indexlist>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G11336" arg2="[]:_G11345" symbol="theme" sense="0">
+         <indexlist>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <pred arg="[]:_G11336" symbol="concerned" type="a" sense="0">
+         <indexlist>
+         <index pos="23">i1023</index>
+         </indexlist>
+         </pred>
+        </cond>
+        <cond label="l">
+         <eq arg1="[]:_G9815" arg2="[]:_G11345">
+         <indexlist>
+         </indexlist>
+         </eq>
+        </cond>
+        <cond label="l">
+         <pred arg="[]:_G11363" symbol="area" type="n" sense="0">
+         <indexlist>
+         <index pos="17">i1017</index>
+         </indexlist>
+         </pred>
+        </cond>
+        <cond label="l">
+         <pred arg="[]:_G11354" symbol="several" type="a" sense="0">
+         <indexlist>
+         <index pos="16">i1016</index>
+         </indexlist>
+         </pred>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G11354" arg2="[]:_G11363" symbol="topic" sense="0">
+         <indexlist>
+         </indexlist>
+         </rel>
+        </cond>
+        <cond label="l">
+         <rel arg1="[]:_G11108" arg2="[]:_G9833" symbol="in" sense="0">
+         <indexlist>
+         <index pos="10">i1010</index>
+         </indexlist>
+         </rel>
+        </cond>
+       </conds>
+      </drs>
+     </not>
+    </cond>
+    <cond label="l">
+     <rel arg1="[]:_G11108" arg2="[]:_G11117" symbol="patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </cond>
+    <cond label="l">
+     <rel arg1="[]:_G11108" arg2="[]:_G11126" symbol="agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </cond>
+    <cond label="l">
+     <pred arg="[]:_G11108" symbol="event" type="v" sense="0">
+     <indexlist>
+     </indexlist>
+     </pred>
+    </cond>
+    <cond label="l">
+     <rel arg1="[]:_G11117" arg2="[]:_G9860" symbol="of" sense="0">
+     <indexlist>
+     <index pos="2">i1002</index>
+     </indexlist>
+     </rel>
+    </cond>
+    <cond label="l">
+     <pred arg="[]:_G11117" symbol="thing" type="n" sense="12">
+     <indexlist>
+     <index pos="1">i1001</index>
+     </indexlist>
+     </pred>
+    </cond>
+    <cond label="l">
+     <pred arg="[]:_G11126" symbol="thing" type="n" sense="12">
+     <indexlist>
+     </indexlist>
+     </pred>
+    </cond>
+   </conds>
+  </drs>
+ </merge>
+</xdrs>
+</xdrs-output>
