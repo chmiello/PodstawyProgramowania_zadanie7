@@ -20,11 +20,14 @@ namespace zadanie7_pp
     public partial class condInformation : Window
     {
         Cond cond;
-        public condInformation(Cond cond, String item)
+        MainWindow mw;
+        public condInformation(Cond cond, String item, MainWindow mw)
         {
             InitializeComponent();
-            WriteInfoLabel.Content = item;
+            this.mw = mw;
             this.cond = cond;
+            WriteInfoLabel.Content = item;
+            WriteTokenLabel.Content = mw.findToken(cond.getArg("symbol"));       
 
             if (cond.not.conds.Count != 0)
             {
@@ -60,7 +63,7 @@ namespace zadanie7_pp
             DataRowView selectedItem = (notGrid.SelectedItem as DataRowView);
             String item = cond.not.conds[Convert.ToInt32(selectedItem[0])].getAllArgs();
 
-            condInformation window = new condInformation(cond.not.conds[Convert.ToInt32(selectedItem[0])], item);
+            condInformation window = new condInformation(cond.not.conds[Convert.ToInt32(selectedItem[0])], item,mw);
             window.Show();
         }
     }

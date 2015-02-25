@@ -6,11 +6,15 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="27"/>
             <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Label x:Name="InfoLabel" Content="Informacje:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="26" Width="69"/>
+        <Label x:Name="InfoLabel" Content="Cond arguments:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="26"/>
         <Label x:Name="WriteInfoLabel" Content="" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top"/>
-        <DataGrid x:Name="notGrid" HorizontalAlignment="Left" Margin="-2,1,0,0" Grid.Row="2" VerticalAlignment="Top" RenderTransformOrigin="-0.167,-0.692" IsReadOnly="True" MouseDoubleClick="notGrid_MouseDoubleClick"/>
+        <DataGrid x:Name="notGrid" HorizontalAlignment="Left" Margin="-2,1,0,0" Grid.Row="4" VerticalAlignment="Top" RenderTransformOrigin="-0.167,-0.692" IsReadOnly="True" MouseDoubleClick="notGrid_MouseDoubleClick"/>
+        <Label x:Name="WriteTokenLabel" Content="" HorizontalAlignment="Left" Grid.Row="3" RenderTransformOrigin="1.5,1.923" Height="26" VerticalAlignment="Top"/>
+        <Label x:Name="TokenInfoLabel" Content="Tokens:" HorizontalAlignment="Left" Margin="0,1,0,0" Grid.Row="2" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
