@@ -308,5 +308,20 @@ namespace zadanie7_pp
             condInformation window = new condInformation(tmp, item);
             window.Show();
         }
+
+        public string findToken(string symbol)
+        {
+            string ret = "Not found";
+
+            foreach(var x in this.tagtokens)
+            {
+                if(x.Value.getTag("lemma").Equals(symbol))
+                {
+                    return x.Value.getAllTags();
+                }
+            }
+
+            return ret;
+        }
     }
 }
