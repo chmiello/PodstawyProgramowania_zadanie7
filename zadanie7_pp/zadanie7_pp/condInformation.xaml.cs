@@ -19,7 +19,7 @@ namespace zadanie7_pp
     /// </summary>
     public partial class condInformation : Window
     {
-        public condInformation(String item)
+        public condInformation(Cond cond, String item)
         {
             InitializeComponent();
             WriteInfoLabel.Content = item;

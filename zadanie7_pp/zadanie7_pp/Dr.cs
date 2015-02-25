@@ -7,9 +7,9 @@ namespace zadanie7_pp
 {
     class Dr
     {
-        private string label;
-        private string name;
-        private string tokenId;
+        public string label;
+        public string name;
+        public string tokenId;
 
 
         public Dr(string name, string label) 

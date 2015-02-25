@@ -5,10 +5,10 @@ using System.Text;
 
 namespace zadanie7_pp
 {
-    class Not
+    public class Not
     {
-        private Dictionary<string, Dr> domain;
-        private List<Cond> conds;
+        private  Dictionary<string, Dr> domain;
+        public List<Cond> conds;
 
         public Not()
         {
@@ -16,20 +16,20 @@ namespace zadanie7_pp
             conds = new List<Cond>();
         }
 
-        public void addDomain(string name, Dr value) 
+        /* public void addDomain(string name, Dr value) 
         {
             this.domain.Add(name, value);
-        }
+        } */
 
         public void addCond(Cond value)
         {
             this.conds.Add(value);
         }
 
-        public Dictionary<string, Dr> getDomain()
+        /* public Dictionary<string, Dr> getDomain()
         {
             return this.domain;
-        }
+        } */
 
         public List<Cond> getConds()
         {

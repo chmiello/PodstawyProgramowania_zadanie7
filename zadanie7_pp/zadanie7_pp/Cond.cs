@@ -5,15 +5,15 @@ using System.Text;
 
 namespace zadanie7_pp
 {
-    class Cond
+    public class Cond
     {
-        private Dictionary<string, string> args;
-        
-        private string nodeName;
-        
-        private Not not;
+        public Dictionary<string, string> args;
 
-        private List<Index> indexlist;
+        public string nodeName;
+
+        public Not not;
+
+        public List<Index> indexlist;
 
         public Cond() 
         {

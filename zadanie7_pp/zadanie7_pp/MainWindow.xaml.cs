@@ -24,7 +24,7 @@ namespace zadanie7_pp
 
         private Dictionary<string, Tagtoken> tagtokens;
         private Dictionary<string, Dr> domain;
-        private List<Cond> conds;
+        public List<Cond> conds;
 
         public MainWindow()
         {
@@ -137,7 +137,7 @@ namespace zadanie7_pp
                         foreach (XmlNode xn in current.SelectNodes("drs/domain/dr"))
                         {
                             Dr drTmp = new Dr(xn.Attributes["name"].InnerText, xn.Attributes["label"].InnerText);
-                            notTmp.addDomain(xn.Attributes["name"].InnerText, drTmp);
+                            //notTmp.addDomain(xn.Attributes["name"].InnerText, drTmp);
                         }
 
                         foreach (XmlNode x2 in current.SelectNodes("drs/conds/cond"))
@@ -303,8 +303,11 @@ namespace zadanie7_pp
             DataRowView selectedItem = (dataGrid1.SelectedItem as DataRowView);
             String item = conds[Convert.ToInt32(selectedItem[0])].getAllArgs();
 
+            Cond tmp = conds[Convert.ToInt32(selectedItem[0])];
 
-            condInformation window = new condInformation(item);
+            Console.WriteLine(tmp.getAllArgs());
+
+            condInformation window = new condInformation(tmp, item);
             window.Show();
         }
     }

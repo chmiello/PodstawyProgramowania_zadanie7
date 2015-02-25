@@ -30,7 +30,6 @@ namespace zadanie7_pp
             else {
                 return "No define";
             }
-            
         }
 
         public void setXmlId(string xmlId) 

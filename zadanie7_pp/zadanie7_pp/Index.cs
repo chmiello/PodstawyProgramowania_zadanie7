@@ -5,11 +5,11 @@ using System.Text;
 
 namespace zadanie7_pp
 {
-    class Index
+    public class Index
     {
-        
-        private string pos;
-        private string value;
+
+        public string pos;
+        public string value;
 
         public Index() { 
             
