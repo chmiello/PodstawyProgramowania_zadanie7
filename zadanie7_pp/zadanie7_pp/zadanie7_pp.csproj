@@ -53,7 +53,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Cond.cs" />
+    <Compile Include="Dr.cs" />
+    <Compile Include="Index.cs" />
+    <Compile Include="Not.cs" />
     <Compile Include="Tagtoken.cs" />
+    <Compile Include="tagtokenItem.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
