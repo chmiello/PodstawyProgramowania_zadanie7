@@ -305,8 +305,6 @@ namespace zadanie7_pp
 
             Cond tmp = conds[Convert.ToInt32(selectedItem[0])];
 
-            Console.WriteLine(tmp.getAllArgs());
-
             condInformation window = new condInformation(tmp, item);
             window.Show();
         }
