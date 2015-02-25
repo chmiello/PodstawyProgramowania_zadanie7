@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows;
@@ -218,7 +219,7 @@ namespace zadanie7_pp
                     }
                 }
 
-                
+                /*
                 DataGridTextColumn c1 = new DataGridTextColumn();
                 c1.Header = "Id";
                 c1.Binding = new Binding("Id");
@@ -271,8 +272,27 @@ namespace zadanie7_pp
                         }
                     }
                 }
+                */
+
+                dataGrid1.ItemsSource = getDataTable().DefaultView;
 
             }
+        }
+
+        private DataTable getDataTable()
+        {
+            DataTable table = new DataTable();
+
+            table.Columns.Add("Symbol", typeof(String));
+            table.Columns.Add("Nod Name", typeof(String));
+            table.Columns.Add("Type", typeof(String));
+            
+            foreach(var item in conds)
+            {
+                table.Rows.Add(item.getArg("symbol"), item.getNodeName(),  item.getArg("type"));
+            }
+
+            return table;
         }
     }
 }
