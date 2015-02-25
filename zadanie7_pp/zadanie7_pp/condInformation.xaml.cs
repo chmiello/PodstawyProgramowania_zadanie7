@@ -54,5 +54,14 @@ namespace zadanie7_pp
             }
             return table;
         }
+
+        private void notGrid_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            DataRowView selectedItem = (notGrid.SelectedItem as DataRowView);
+            String item = cond.not.conds[Convert.ToInt32(selectedItem[0])].getAllArgs();
+
+            condInformation window = new condInformation(cond.not.conds[Convert.ToInt32(selectedItem[0])], item);
+            window.Show();
+        }
     }
 }
