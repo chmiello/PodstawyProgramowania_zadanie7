@@ -32,6 +32,17 @@ namespace zadanie7_pp
             this.nodeName = name;
         }
 
+        public string getArg(string name) {
+            if (this.args.ContainsKey(name))
+            {
+                return this.args[name];
+            }
+            else 
+            {
+                return "No define";
+            }
+        }
+
         public String getNodeName()
         {
             return this.nodeName;
