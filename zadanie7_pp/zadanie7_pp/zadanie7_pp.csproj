@@ -54,11 +54,18 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Cond.cs" />
+    <Compile Include="condInformation.xaml.cs">
+      <DependentUpon>condInformation.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Dr.cs" />
     <Compile Include="Index.cs" />
     <Compile Include="Not.cs" />
     <Compile Include="Tagtoken.cs" />
     <Compile Include="tagtokenItem.cs" />
+    <Page Include="condInformation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
