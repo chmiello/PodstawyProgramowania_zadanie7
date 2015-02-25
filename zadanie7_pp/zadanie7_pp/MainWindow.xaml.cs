@@ -283,16 +283,29 @@ namespace zadanie7_pp
         {
             DataTable table = new DataTable();
 
+            table.Columns.Add("ID", typeof(Int32));
             table.Columns.Add("Symbol", typeof(String));
             table.Columns.Add("Nod Name", typeof(String));
             table.Columns.Add("Type", typeof(String));
-            
+
+            int i = 0; //iterator do wyszukiwania itemow na liscie
             foreach(var item in conds)
             {
-                table.Rows.Add(item.getArg("symbol"), item.getNodeName(),  item.getArg("type"));
+                table.Rows.Add(i, item.getArg("symbol"), item.getNodeName(),  item.getArg("type"));
+                i++;
             }
 
             return table;
+        }
+
+        private void dataGrid1_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            DataRowView selectedItem = (dataGrid1.SelectedItem as DataRowView);
+            String item = conds[Convert.ToInt32(selectedItem[0])].getAllArgs();
+
+
+            condInformation window = new condInformation(item);
+            window.Show();
         }
     }
 }

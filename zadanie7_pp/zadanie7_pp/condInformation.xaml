@@ -1,7 +1,7 @@
 ﻿<Window x:Class="zadanie7_pp.condInformation"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Cond information" Height="300" Width="300">
+        Title="Cond information" Height="300" Width="300" SizeToContent="Width">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="27"/>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows;
@@ -18,9 +19,10 @@ namespace zadanie7_pp
     /// </summary>
     public partial class condInformation : Window
     {
-        public condInformation()
+        public condInformation(String item)
         {
             InitializeComponent();
+            WriteInfoLabel.Content = item;
         }
     }
 }
