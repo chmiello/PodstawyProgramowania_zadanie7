@@ -66,6 +66,8 @@ namespace zadanie7_pp
         public string getAllArgs()
         {
             string all = "";
+            if (this.args.Count == 0)
+                return "Not exist.";
             foreach (KeyValuePair<string, string> x in this.args)
                 all += x.Key + " : " + x.Value + ", ";
             return all;
